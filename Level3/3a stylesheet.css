@@ -1,0 +1,33 @@
+body {
+        width: 70%;
+        margin: 0 auto;
+}
+
+.top {width: 100%;
+    margin-top: 100px;
+        
+    }
+
+.left {float: left;
+margin-left: 25%;}
+
+.right {float: right;
+    margin-right:25%;
+}
+
+.Quote {
+margin-top: 200px;
+float: left;
+width:80%;
+text-align: left;
+}
+
+.Quote h1 {
+    text-align: left;
+}
+
+.farRight {
+    float: right;
+    width: 15%;
+    margin-top:200px;
+}

@@ -34,14 +34,14 @@ h4 {
 }
 
 .step1 h1 {
-
-    font-size: 8em;
+    float: left;
+    font-size: 24px;
 
 }
 
 .step1  h2 {
 
-
+    text-align: right;
     color: red;
     border-bottom: 1px solid red;
 }

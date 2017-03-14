@@ -2,56 +2,57 @@ body
 {
     width: 100%;
     font-family: Futura;
-    
+
 }
 
 .margin {
     text-align: left;
-    margin-left: 2vw;
-    margin-top: 2vw;
-    
+    width: 100%;
+
+
 }
 
 .title p {
     font-size: 4vw;
-    width: 40%;
-    margin-left: 2vw;
+    width: 100%;
+    text-align: left;
 }
 
 h4 {
-    text-align: right;
-    width: 34%;
-    margin-top: -4vw;
+    text-align: left;
+    width: 100%;
+
     font-size: 2em;
 }
 
 
 .step1 {
-   
-    margin-left: 40vw;
-    width: 10%
+
+    width: 200px;
+    height: 50px;
+
 }
 
 .step1 h1 {
-    float: left;
+
     font-size: 8em;
-    
+
 }
 
 .step1  h2 {
-    float: left;
-    margin-top: 4.6vw;
+
+
     color: red;
     border-bottom: 1px solid red;
 }
 
 .step1 p {
     float: right;
-    margin-top: -6.5em;
+    
     text-align: right;
     font-size: 1vw;
-    
-    
+
+
 }
 
 .step2 {
@@ -82,7 +83,7 @@ h4 {
 .step3 {
     margin-left: 30vw;
     float: left;
-    
+
     width: 220%;
 }
 
@@ -91,7 +92,7 @@ h4 {
     margin-top: -25.5vw;
     font-size: 23vw;
     margin-left: -2vw;
-    
+
 }
 
 .step3 h2 {
@@ -113,7 +114,7 @@ h4 {
     float: left;
     font-size: 12vw;
     margin-top: -13.7vw;
-   
+
 }
 
 .step4 h2 {
@@ -129,5 +130,5 @@ h4 {
     margin-top: -9vw;
     margin-left: 1vw;
     width: 50%;
-    
+
 }

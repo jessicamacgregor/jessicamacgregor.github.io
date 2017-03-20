@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'Monosten';
+	src: url('Monosten-A.eot');
+	src: url('Monosten-A.eot?#iefix') format('embedded-opentype'),
+		url('Monosten-A.woff') format('woff'),
+		url('Monosten-A.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+
+
+  height: 300px;
+  font-family: 'Monosten'
+
+}
+
+p {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  line-height: 22px;
+}
+
+
+h1  {
+
+  float: left;
+  width: 40%;
+  }
+
+  
+
+.J, .O, .S, .E, .P, .H, .B, .E, .U, .Y, .SS {
+  font-size: 200px;
+}
+
+
+
+.J {
+  margin-top: 10%;
+  margin-left: 30%;
+
+
+}
+
+.O {
+  margin-left: 50%;
+
+}
+
+.S {
+  float: left;
+
+  margin-left: 65%;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+
+}
+
+.E {
+  float: left;
+  margin-top: -35%;
+  margin-left: 150%;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+
+}
+
+.P {
+  float: left;
+
+  margin-left: 30%;
+
+}
+.H {
+  float: left;
+  margin-top: -35%;
+  margin-left: 102%;
+
+
+}
+
+.B {
+  float: left;
+  margin-left: 65%;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+}
+
+.U {
+
+  float: left;
+  margin-left: 30%;
+
+}
+.E {
+  float: left;
+}
+
+.Y {
+  float: left;
+  margin-left: 103%;
+  margin-top:-36%;
+
+}
+
+div {
+  border: 10px solid black;
+  height: 1100px;
+}

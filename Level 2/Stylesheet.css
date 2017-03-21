@@ -18,6 +18,30 @@
 	font-style: normal;
 }
 
+ul {
+  white-space: nowrap;
+  float: center;
+  width: 40%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 15%;
+
+}
+li {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+
 body {
   width: 50%;
   margin: 0 auto;
@@ -67,28 +91,6 @@ h2 {
 }
 
 
-ul {
-  white-space: nowrap;
-  float: center;
-  width: 40%;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-  margin-bottom: 15%;
-
-}
-li {
-  white-space: nowrap;
-  display: inline-block;
-}
-
-li a {
-  text-align: center;
-  text-decoration: none;
-  white-space: nowrap;
-}
 
 img:hover ~ h2 {
 	opacity: 0;

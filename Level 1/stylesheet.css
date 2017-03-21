@@ -42,7 +42,7 @@ h1 {
   display: inline;
   font-family: 'Apercu';
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 
@@ -69,11 +69,11 @@ h2 {
 
 img:hover ~ h2 {
 
-	opacity: .5;
+	opacity: 0;
 }
 img:hover {
-	opacity: .1;
-	transition: 1s;
+	opacity: 0;
+
 }
 
 img {
@@ -87,18 +87,21 @@ margin: 10px 10px 10px;}
 
 .box1 {
 	float: left;
-	height: 800px;
-	
+	height: 400px;
+margin-left:35%;
 }
 .box2 {
-	margin-top: -25%;
+
 	float: left;
-	height: 800px;
+	height: 400px;
+	margin-left:35%;
 }
 
 .box3 {
 	float: left;
-	height: 800px;
+	height: 400px;
+	margin-left:35%;
+	margin-top: -10%;
 }
 
 
@@ -131,12 +134,13 @@ font-size: 16px;
 }
 
 .description {
-	width: 100%;
+	width: 60%;
 	border-bottom: 1px solid rgb(50,25,53);
 	border-top: 1px solid rgb(50,25,53);
-	height: 70px;
-	margin-top: -35%;
-	margin-left: 2.5%;
+	height: 100px;
+	margin-top: -10%;
+	margin-bottom: 10%;
+ margin-left: 20%;
 	float: left;
 
 }

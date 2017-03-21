@@ -2,63 +2,63 @@ body {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    
+
 }
 .margin {
     font-size: 12px;
     font-family: Avenir;
-    
+
 }
 .box1 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 50px;
+    padding-bottom: 40px;
     font-family: Avenir;
-    font-size: 3em;
- 
+    font-size: 48px;
+
 }
 
 .box3 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Avenir;
-    font-size: 3em;
+    font-size: 48px;
     font-weight: bold;
-  
+
 
 }
 
 .box4 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Avenir;
-    font-size: 3em;
+    font-size: 48px;
     font-style: italic;
 }
 
 .box5 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: .15vw;
-    padding-bottom: .15vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-family: Avenir;
-    font-size: 5em;
-    
+    font-size: 36px;
+
 
 }
 
 .box6 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-family: Caslon;
-    font-size: 3em;
+    font-size: 36px;
 
 
 }
@@ -66,10 +66,10 @@ body {
 .box7 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: .5vw;
-    padding-bottom: .5vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: Caslon;
-    font-size: 5em;
+    font-size: 48px;
     font-weight: bold;
 
 }
@@ -77,107 +77,107 @@ body {
 .box8 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Caslon;
-    font-size: 3em;
+    font-size: 48px;
     text-transform: uppercase;
-    
+
 }
 
 .box9 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-family: Caslon;
-    font-size: 3em;
+    font-size: 36px;
     font-style: italic;
-    
+
 }
 
 .box10 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Futura;
-    font-size: 3em;
-  
+    font-size: 48px;
+
 }
 
 .box11 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-family: Futura;
-    font-size: 3em;
+    font-size: 36px;
     text-transform: uppercase;
-    
+
 }
 
 .box12 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Futura;
-    font-size: 3em;
+    font-size: 48px;
     font-style: italic;
-    
-  
+
+
 }
 
 .box13 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: -2vw;
-    padding-bottom: -2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Futura;
-    font-size: 7em;
-    
-    
-    
-   
+    font-size: 48px;
+
+
+
+
 }
 
 .box14 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Georgia;
-    font-size: 3em;
+    font-size: 48px;
     font-style: italic;
-    
-    
-  
+
+
+
 }
 
 .box15 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Georgia;
-    font-size: 3em;
+    font-size: 48px;
     font-weight: bold;
-   
-  
+
+
 }
 
 .box16 {
     width: 100%;
     border-bottom: 1px solid black;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: Georgia;
-    font-size: 4em;
+    font-size: 48px;
     text-transform: uppercase
- 
+
 }
 
 footer {
-    height: 9vw;
+    height: 100px;
 }

@@ -34,6 +34,34 @@ body {
   overflow: hidden;
 }
 
+.main {
+	width: 120%;
+	margin-left:15%;
+	height: 100px;
+}
+
+
+.box1 {
+	margin-left: 3%;
+	display: inline-block;
+
+
+}
+.box2 {
+
+	display: inline-block;
+
+
+}
+
+.box3 {
+	display: inline-block;
+	margin-left: -1%;
+
+
+}
+
+
 header {
     margin: 15% 10%;
 }
@@ -85,26 +113,7 @@ margin: 10px 10px 10px;}
 
 
 
-.box1 {
-	display: inline-block;
-	float: left;
-	height: 200px;
 
-}
-.box2 {
-	display: inline-block;
-	float: left;
-	height: 200px;
-
-}
-
-.box3 {
-	display: inline-block;
-	height: 200px;
-
-
-
-}
 
 
 ul {
@@ -130,7 +139,7 @@ li a {
   white-space: nowrap;
 }
 p {
-font-size: 16px;
+font-size: 20px;
 
 
 }
@@ -142,7 +151,12 @@ font-size: 16px;
 	height: 100px;
 	margin-top: 10%;
 	margin-bottom: 10%;
- margin-left: 20%;
+ 	margin-left: 18%;
 	float: left;
 
+}
+
+footer {
+	margin-top: 50%;
+	height: 150px;
 }

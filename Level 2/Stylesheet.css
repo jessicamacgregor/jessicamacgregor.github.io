@@ -27,6 +27,34 @@ body {
 	color: rgb(255, 255, 255);
 }
 
+.main {
+	width: 120%;
+	margin-left:15%;
+	height: 100px;
+}
+
+
+.box1 {
+	margin-left: 1%;
+	display: inline-block;
+
+
+}
+.box2 {
+	margin-left: -2%;
+	display: inline-block;
+
+
+}
+
+.box3 {
+	display: inline-block;
+
+
+
+}
+
+
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -130,7 +158,7 @@ li a {
   white-space: nowrap;
 }
 p {
-font-size: 16px;
+font-size: 20px;
 
 
 }
@@ -142,7 +170,12 @@ font-size: 16px;
 	height: 100px;
 	margin-top: 10%;
 	margin-bottom: 10%;
- margin-left: 20%;
+ 	margin-left: 18%;
 	float: left;
 
+}
+
+footer {
+	margin-top: 50%;
+	height: 150px;
 }

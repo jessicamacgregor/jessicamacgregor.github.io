@@ -72,7 +72,7 @@ img:hover ~ h2 {
 	opacity: 0;
 }
 img:hover {
-	opacity: 0;
+	opacity: .2;
 
 }
 

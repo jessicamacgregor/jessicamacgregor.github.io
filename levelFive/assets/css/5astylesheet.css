@@ -1,0 +1,30 @@
+body { width: 85%;
+margin: 0 auto}
+
+.left {
+  float: left;
+  margin-top: 20%;
+  width: 45%;
+  font-size: 27px;
+}
+
+.right {
+  float: right;
+  width: 45%;
+
+
+
+  margin-top: 20%;
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  font-size: 27px;
+
+}
+
+div .background {
+  color: black;
+  width: 100%;
+
+}

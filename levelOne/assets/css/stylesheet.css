@@ -1,0 +1,190 @@
+@font-face {
+	font-family: 'Apercu';
+	src: url('../../assets/font/Apercu-Light.eot');
+	src: url('../../assets/font/Apercu-Light.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/font/Apercu-Light.woff') format('woff'),
+		url('../../assets/font/Apercu-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Apercu';
+	src: url('../../assets/font/Apercu-Regular.eot');
+	src: url('../../assets/font/Apercu-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../../assets/font/Apercu-Regular.woff') format('woff'),
+		url('../../assets/font/Apercu-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(211,82,70);
+  font-family: 'Apercu';
+  font-weight: 300;
+	color: rgb(255, 255, 255);
+}
+
+.main {
+	width: 120%;
+	margin-left:15%;
+	height: 100px;
+}
+
+
+.box1 {
+	margin-left: 6%;
+	display: inline-block;
+
+
+}
+.box2 {
+	margin-left: -7%;
+	display: inline-block;
+
+
+}
+
+.box3 {
+	display: inline-block;
+	margin-left: -7%;
+
+
+
+}
+
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+}
+
+header {
+    margin: 10% 10%;
+}
+
+h1 {
+  display: inline;
+  font-family: 'Apercu';
+  font-weight: normal;
+  font-size: 16px;
+
+}
+
+h2 {
+  font-family: 'Apercu';
+  font-weight: normal;
+	opacity: 0.0;
+}
+
+.levelone {
+	margin-top: -9%;
+	margin-left: 7%;
+}
+
+.leveltwo {
+	margin-top: -9%;
+	margin-left: 7%;
+}
+
+.levelthree {
+	margin-top: -9%;
+	margin-left: 7%;
+}
+
+img:hover ~ h2 {
+
+	opacity: 0;
+}
+img:hover {
+	opacity: .2;
+
+}
+
+img {
+
+
+padding: 10px 10px 10px;
+margin: 10px 10px 10px;}
+
+
+
+
+.box1 {
+	display: inline-block;
+	float: left;
+	height: 200px;
+
+}
+.box2 {
+	display: inline-block;
+	float: left;
+	height: 200px;
+
+}
+
+.box3 {
+	display: inline-block;
+	height: 200px;
+
+
+
+}
+
+
+ul {
+  white-space: nowrap;
+  float: center;
+  width: 40%;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 15%;
+
+}
+li {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+p {
+font-size: 16px;
+line-height: 1.4;
+
+
+}
+
+.description {
+	width: 30%;
+
+	border-top: 1px solid rgb(255,255,255);
+	height: 50px;
+	margin-top: 10%;
+
+ 	margin-left: 25%;
+	float: left;
+	text-align: left;
+
+}
+
+.nextPage {
+	float: right;
+	margin-top: 9%;
+	margin-right: 2%;
+}
+
+footer {
+	margin-top: 20%;
+	height: 25px;
+}

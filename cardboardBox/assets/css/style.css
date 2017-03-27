@@ -1,0 +1,25 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  font-family: arial;
+  font-size: 18px;
+  line-height: normal;
+}
+
+a {
+  color:red;
+}
+
+img {
+  width: 600px;
+}
+
+.essay {
+  font-family: times;
+  width: 800px;
+  margin: auto;
+}
+
+blockquote {
+  font-style:italic;
+}

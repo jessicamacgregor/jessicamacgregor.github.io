@@ -320,9 +320,29 @@ margin-left: 10%;
 }
 
 .noTwo {
-	margin-top: -35%;
-	text-align: center;
+margin-top: -25%;
+float: center;
+margin-left: 37%;
+vertical-align: center;
+
+
 }
+
+.repost {
+	opacity: 0;
+	position: absolute;
+margin-left: -8%;
+margin-top: 10%;
+
+}
+.box:hover ~ .repost {
+	opacity: 1;
+}
+.box:hover {
+	opacity: 0;
+}
+
+
 
 p {font-size: 14px;
 text-align: center;

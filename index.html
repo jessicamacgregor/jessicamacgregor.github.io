@@ -6,7 +6,7 @@
 		<script src="../jessicamacgregor.github.io/assets/JS/jquery-3.2.0.min.js"></script>
 	<script>
 
-	$(document).ready(function(e) {
+	$(document).ready(function() {
 	 // your code here
 });
 
@@ -15,10 +15,10 @@
 	        var trigger = $('.naps'),
 	            target = $('.imagination, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-	        trigger.hover(function() {
+	        trigger.mouseover(function() {
 
-	            target.animate({opacity: "0.0"});
 
+  target.stop().fadeTo('slow',0);
 	        });
 
 	     });
@@ -30,7 +30,7 @@
 
 					trigger.mouseout(function() {
 
-							target.animate({opacity: "1"});
+							target.stop().fadeTo('slow',1);
 
 					});
 
@@ -42,9 +42,9 @@
 			 	        var trigger = $('.imagination'),
 			 	            target = $('.imagination, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-			 	        trigger.hover(function() {
+			 	        trigger.mouseover(function() {
 
-			 	            target.animate({opacity: "0.0"});
+			 	           target.stop().fadeTo('slow',0);
 
 			 	        });
 
@@ -57,7 +57,7 @@
 
 			 					trigger.mouseout(function() {
 
-			 							target.animate({opacity: "1"});
+			 						target.stop().fadeTo('slow',1);
 
 			 					});
 
@@ -68,9 +68,9 @@
 								 var trigger = $('.book'),
 										 target = $('.book, .naps, .imagination, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+										 target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -83,7 +83,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+										target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -94,9 +94,9 @@
 								 var trigger = $('.house'),
 										 target = $('.house, .naps, .book, .imagination, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+										 target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -109,7 +109,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+								target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -120,9 +120,9 @@
 								 var trigger = $('.scales'),
 										 target = $('.scales, .naps, .book, .house, .imagination, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+										 target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -135,7 +135,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -146,9 +146,9 @@
 								 var trigger = $('.diveIn'),
 										 target = $('.diveIn, .naps, .book, .house, .scales, .imagination, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+										target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -161,7 +161,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -172,9 +172,9 @@
 								 var trigger = $('.tree'),
 										 target = $('.tree, .naps, .book, .house, .scales, .diveIn, .imagination, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+							target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -187,7 +187,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -198,9 +198,9 @@
 								 var trigger = $('.love'),
 										 target = $('.love, .naps, .book, .house, .scales, .diveIn, .tree, .imagination, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+									target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -213,7 +213,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -224,9 +224,9 @@
 								 var trigger = $('.swing'),
 										 target = $('.swing, .naps, .book, .house, .scales, .diveIn, .tree, .love, .imagination, .plant, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+							target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -239,7 +239,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -250,9 +250,9 @@
 								 var trigger = $('.plant'),
 										 target = $('.plant, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .imagination, .snakes, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+							target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -265,7 +265,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -276,9 +276,9 @@
 								 var trigger = $('.snakes'),
 										 target = $('.snakes, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .imagination, .moon, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+							target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -291,7 +291,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+								target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -302,9 +302,9 @@
 								 var trigger = $('.moon'),
 										 target = $('.moon, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .imagination, .yes, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+									target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -317,7 +317,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+									target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -328,9 +328,9 @@
 								 var trigger = $('.yes'),
 										 target = $('.yes, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .imagination, .walkingStick, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+								target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -343,7 +343,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+								target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -354,9 +354,9 @@
 								 var trigger = $('.walkingStick'),
 										 target = $('.walkingStick, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .imagination, .teaPot');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+									target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -369,7 +369,7 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+								target.stop().fadeTo('slow',1);
 
 								 });
 
@@ -380,9 +380,9 @@
 								 var trigger = $('.teaPot'),
 										 target = $('.teaPot, .naps, .book, .house, .scales, .diveIn, .tree, .love, .swing, .plant, .snakes, .moon, .yes, .walkingStick, .imagination');
 
-								 trigger.hover(function() {
+								 trigger.mouseover(function() {
 
-										 target.animate({opacity: "0.0"});
+								target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -395,7 +395,58 @@
 
 								 trigger.mouseout(function() {
 
-										 target.animate({opacity: "1"});
+								target.stop().fadeTo('slow',1);
+
+								 });
+
+							});
+
+							$(function() {
+
+								 var trigger = $('.box'),
+										 target = $('.box');
+
+								 trigger.mouseover(function() {
+
+								target.stop().fadeTo('slow',0);
+
+								 });
+
+							});
+
+							$(function() {
+
+								 var trigger = $('.box'),
+										 target = $('.box');
+
+								 trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+								 });
+
+							});
+							$(function() {
+
+								 var trigger = $('.box'),
+										 target = $('.strikeThrough');
+
+								 trigger.mouseover(function() {
+
+								target.stop().fadeTo('slow',1);
+
+								 });
+
+							});
+
+							$(function() {
+
+								 var trigger = $('.box'),
+										 target = $('.strikeThrough');
+
+								 trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',0);
 
 								 });
 
@@ -440,7 +491,7 @@
 
 	<img class="imagination"src="assets/images/Imagination.png" width="10%">
 
-	<h2 class="imaginationText">Dream wild, imaginative dreams.<br>Giggle with children.</h2>
+	<h2 class="imaginationText"><span class="imaginationOne">Dream wild, imaginative dreams.</span><br>Giggle with children.</h2>
 
 
 	<img class="naps" src="assets/images/Naps.png" width="13%">
@@ -488,7 +539,7 @@
 
 
 	<img class="yes" src="assets/images/Yes.png" width="9%">
-	<h2 class="yesText">Make small signs that say 'yes' and spread them all over your house.<br>Draw on the walls.</h2>
+	<h2 class="yesText">Make small signs that say 'yes'.<br>Draw on the walls.</h2>
 
 
 
@@ -527,14 +578,16 @@
 
 </div>
 <div class="noTwo">
-<a class="projectTwo" href="cardboardBox/index.html"><img class="box" src="cardboardBox/assets/images/project2.png" width="25%"><span class="repost">Repost</span></a>
+<a class="projectTwo" href="cardboardBox/index.html"><img class="box" src="cardboardBox/assets/images/project2.png" width="35%"><span class="repost">Repost</span></a>
+
+<img class="strikeThrough" src="cardboardBox/assets/images/strikeThrough.png" width="25%">
 </div>
 <footer>
 
 <p>Designed and Illustrated by Jessica MacGregor</p>
 <br>
 <br>
-<br>
+<br
 
 
 </footer>

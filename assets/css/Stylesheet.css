@@ -338,13 +338,10 @@ margin-top: 10%;
 .box:hover ~ .repost {
 	opacity: 1;
 }
-.box:hover {
-	opacity: 0;
-}
 
 
 
 p {font-size: 14px;
 text-align: center;
-margin-top: 20%;
+margin-top: 10%;
 }

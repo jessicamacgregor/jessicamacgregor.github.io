@@ -13,7 +13,7 @@ h1 {
   height:30px;
   font-family: 'Avenir';
   font-size: 22px;
-  color: rgb(0,0,0);
+  color: rgb(50,25,53) !important;
 margin-left: -12%;
 margin-top: -3%;
 overflow: auto;
@@ -73,7 +73,7 @@ h4 {
 
 
 footer {
-  color: rgb(255,255,255);
+  color: rgb(50,25,53);
   font-family: 'Avenir';
   font-size: 12px;
   text-align: center;
